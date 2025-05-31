@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import Disclaimer from './components/Disclaimer'
 
 // Navigation Component
 const Navbar = () => {
@@ -769,6 +770,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <Disclaimer />
     </div>
   );
 }
