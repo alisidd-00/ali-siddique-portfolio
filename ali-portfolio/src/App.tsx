@@ -33,7 +33,7 @@ const Navbar = () => {
 // Hero Section Component
 const Hero = () => {
   const [typedText, setTypedText] = useState('');
-  const roles = ['AI Developer', 'Python Expert', 'ML Engineer', 'Data Scientist'];
+  const roles = ['Senior AI Engineer', 'Agentic AI Architect', 'LLM Systems Engineer', 'RAG & Multi-Agent Developer'];
   const [currentRole, setCurrentRole] = useState(0);
 
   useEffect(() => {
@@ -71,7 +71,7 @@ const Hero = () => {
           <p className="hero-subtitle">
             <span className="typing">{typedText}</span>
             <span className="terminal-cursor"></span>
-            {' '}passionate about building intelligent systems that solve real-world problems
+            {' '}building multi-agent workflows, RAG pipelines, and production AI systems
           </p>
 
           <div className="code-block">
@@ -84,13 +84,13 @@ const Hero = () => {
               <div className="code-title">~/portfolio/intro.py</div>
             </div>
             <div className="code-content">
-              <div><span className="code-keyword">class</span> <span className="code-string">AIDeveloper</span>:</div>
+              <div><span className="code-keyword">class</span> <span className="code-string">SeniorAIEngineer</span>:</div>
               <div>&nbsp;&nbsp;&nbsp;&nbsp;<span className="code-keyword">def</span> __init__(self):</div>
               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.name = <span className="code-string">"Muhammad Ali Siddique"</span></div>
-              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.role = <span className="code-string">"AI Developer & Python Expert"</span></div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.role = <span className="code-string">"Senior AI Engineer"</span></div>
               <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.location = <span className="code-string">"Lahore, Pakistan"</span></div>
-              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.skills = [<span className="code-string">"Machine Learning"</span>, <span className="code-string">"Deep Learning"</span>, <span className="code-string">"Python"</span>]</div>
-              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.passion = <span className="code-string">"Building intelligent solutions"</span></div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.focus = [<span className="code-string">"Agentic AI"</span>, <span className="code-string">"RAG Pipelines"</span>, <span className="code-string">"Multi-Agent Systems"</span>]</div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.mission = <span className="code-string">"Turning business requirements into production-ready AI"</span></div>
             </div>
           </div>
 
@@ -113,51 +113,53 @@ const About = () => {
           <div className="section-tag">About</div>
           <h2 className="section-title">Building the Future with AI</h2>
           <p className="section-description">
+            Senior AI Engineer specializing in LLM systems, agentic AI architectures, and scalable
+            backend platforms — translating business requirements into production-ready AI solutions.
           </p>
         </div>
-        
+
         <div className="grid grid-2">
           <div className="card fade-in">
-            <div className="card-icon">🎓</div>
-            <h3 className="card-title">Educational Foundation</h3>
+            <div className="card-icon">🧠</div>
+            <h3 className="card-title">Agentic AI & LLM Systems</h3>
             <p className="card-description">
-              I hold a Bachelor's degree in Electrical Engineering from FAST NUCES, Lahore (2019-2023). 
-              My engineering background provides me with a strong analytical mindset and problem-solving 
-              approach that I apply to AI and machine learning challenges.
+              I architect multi-agent pipelines, tool-calling agents, and RAG-based knowledge retrieval
+              systems using LangGraph, LangChain, and LlamaIndex. My work spans memory management,
+              agent orchestration, prompt engineering, and fine-tuning LLMs for production use cases.
             </p>
           </div>
-          
+
           <div className="card fade-in">
-            <div className="card-icon">🤖</div>
-            <h3 className="card-title">AI/ML Specialization</h3>
+            <div className="card-icon">🎙️</div>
+            <h3 className="card-title">Voice & Chat AI Platforms</h3>
             <p className="card-description">
-              I specialize in developing cutting-edge AI solutions, from chatbot development to 
-              generative AI applications. My expertise includes prompt engineering, RAG systems, 
-              fine-tuning LLMs, and integrating AI models into production applications.
+              I build production AI applications across voice and chat — from LiveKit/Twilio-powered
+              voice assistants with ElevenLabs and Deepgram, to WhatsApp and web chatbot platforms
+              with context-aware, tool-driven responses.
             </p>
           </div>
-          
+
           <div className="card fade-in">
             <div className="card-icon">🐍</div>
-            <h3 className="card-title">Full-Stack Development</h3>
+            <h3 className="card-title">Full-Stack Backend Engineering</h3>
             <p className="card-description">
-              With strong Python backend skills and modern web technologies, I build end-to-end 
-              AI applications. From Flask and FastAPI backends to React frontends, I create 
-              complete solutions that seamlessly integrate AI capabilities.
+              With strong Python and TypeScript backend skills across FastAPI, Flask, Django, and
+              NestJS, I build end-to-end AI applications with React frontends — complete solutions
+              that integrate AI capabilities into scalable, production-grade systems.
             </p>
           </div>
-          
+
           <div className="card fade-in">
-            <div className="card-icon">🎯</div>
-            <h3 className="card-title">Vector & Data Expertise</h3>
+            <div className="card-icon">🚀</div>
+            <h3 className="card-title">Technical Leadership</h3>
             <p className="card-description">
-              I work extensively with vector databases like Qdrant, Pinecone, and ChromaDB for 
-              RAG applications. My data handling skills with NumPy, Pandas, and NLP libraries 
-              enable me to preprocess and optimize data for AI model training and inference.
+              I lead a team of Full Stack AI engineers, translating client product requirements into
+              scalable LLM architectures and owning end-to-end delivery — timelines, client
+              collaboration, code reviews, and system design standards.
             </p>
           </div>
         </div>
-        
+
         <div className="code-block fade-in" style={{marginTop: '3rem'}}>
           <div className="code-header">
             <div className="code-dots">
@@ -169,11 +171,11 @@ const About = () => {
           </div>
           <div className="code-content">
             <div>&#123;</div>
-            <div>&nbsp;&nbsp;<span className="code-keyword">"degree"</span>: <span className="code-string">"Bachelor of Science in Electrical Engineering"</span>,</div>
-            <div>&nbsp;&nbsp;<span className="code-keyword">"university"</span>: <span className="code-string">"FAST NUCES, Lahore"</span>,</div>
-            <div>&nbsp;&nbsp;<span className="code-keyword">"duration"</span>: <span className="code-string">"August 2019 – December 2023"</span>,</div>
-            <div>&nbsp;&nbsp;<span className="code-keyword">"specialization"</span>: <span className="code-string">"AI/ML Applications"</span>,</div>
-            <div>&nbsp;&nbsp;<span className="code-keyword">"current_focus"</span>: <span className="code-string">"Generative AI & LLM Integration"</span></div>
+            <div>&nbsp;&nbsp;<span className="code-keyword">"degree"</span>: <span className="code-string">"MS Artificial Intelligence"</span>,</div>
+            <div>&nbsp;&nbsp;<span className="code-keyword">"university"</span>: <span className="code-string">"LUMS, Lahore"</span>,</div>
+            <div>&nbsp;&nbsp;<span className="code-keyword">"duration"</span>: <span className="code-string">"August 2025 – Ongoing"</span>,</div>
+            <div>&nbsp;&nbsp;<span className="code-keyword">"undergraduate"</span>: <span className="code-string">"BS Electrical Engineering, FAST NUCES, Lahore (2019 – 2023)"</span>,</div>
+            <div>&nbsp;&nbsp;<span className="code-keyword">"certifications"</span>: [<span className="code-string">"Generative AI with Large Language Models"</span>, <span className="code-string">"Supervised Machine Learning: Regression and Classification"</span>]</div>
             <div>&#125;</div>
           </div>
         </div>
@@ -186,9 +188,14 @@ const About = () => {
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Programming Languages',
+      title: 'Languages',
       icon: '💻',
-      skills: ['Python', 'Vanilla JavaScript', 'TypeScript']
+      skills: ['Python', 'JavaScript (Vanilla)', 'TypeScript']
+    },
+    {
+      title: 'Frameworks',
+      icon: '⚡',
+      skills: ['Flask', 'FastAPI', 'Django', 'NestJS', 'LangGraph', 'LangChain', 'LlamaIndex', 'OpenAI', 'Scikit-Learn', 'ElevenLabs', 'Deepgram', 'LiveKit', 'OpenAI Realtime SDK', 'Google ADK', 'Langfuse', 'Langsmith']
     },
     {
       title: 'Databases',
@@ -196,14 +203,19 @@ const Skills = () => {
       skills: ['MySQL', 'PostgreSQL', 'SQLite', 'MongoDB']
     },
     {
-      title: 'Vector Databases',
+      title: 'Vector DBs',
       icon: '🎯',
-      skills: ['Qdrant', 'Pinecone', 'ChromaDB', 'Weaviate']
+      skills: ['Qdrant', 'Pinecone', 'ChromaDB', 'Weaviate', 'Neo4j']
     },
     {
-      title: 'Data Handling & Analysis',
+      title: 'Tools & Cloud',
+      icon: '🛠️',
+      skills: ['Git', 'GitHub Actions', 'Docker', 'Postman', 'AWS', 'Redis', 'Celery', 'Google Cloud', 'Microsoft Azure AI', 'n8n', 'Web Scraping']
+    },
+    {
+      title: 'Data Analysis',
       icon: '📊',
-      skills: ['NumPy', 'Pandas', 'SpaCy', 'NLTK']
+      skills: ['NumPy', 'Pandas', 'spaCy', 'NLTK']
     },
     {
       title: 'Data Visualization',
@@ -211,19 +223,14 @@ const Skills = () => {
       skills: ['Matplotlib', 'GoJS', 'Mermaid-JS']
     },
     {
-      title: 'Development',
-      icon: '⚡',
-      skills: ['Agile Software Development', 'Web Application Development']
-    },
-    {
-      title: 'Tools & Technologies',
-      icon: '🛠️',
-      skills: ['Git', 'Docker', 'Postman', 'AWS', 'GitHub Actions', 'Redis', 'Celery', 'Microsoft Azure']
-    },
-    {
-      title: 'AI & Specialized Skills',
+      title: 'AI Techniques',
       icon: '🤖',
-      skills: ['Code Optimization', 'Generative AI', 'Chatbot Development', 'Prompt Engineering', 'Data Pre-Processing', 'RAG', 'Fine Tuning']
+      skills: ['Agentic AI', 'Multi-Agent Workflows', 'Agent Orchestration', 'RAG', 'Tool Calling', 'Memory Management', 'Fine-Tuning', 'Prompt Engineering', 'Data Pre-Processing']
+    },
+    {
+      title: 'Other Skills',
+      icon: '🎯',
+      skills: ['Agile Software Development', 'Code Optimization', 'PR Reviews']
     }
   ];
 
@@ -260,32 +267,52 @@ const Skills = () => {
 // Experience Section Component
 const Experience = () => {
   const experiences = [
+    // Hidden for Upwork/client-facing view — uncomment to show the Elile role
+    // {
+    //   title: 'AI Engineer',
+    //   company: 'Elile',
+    //   period: 'May 2026 – Onwards',
+    //   location: 'Remote',
+    //   description: [
+    //     'Develop and integrate AI-powered solutions, including LLM powered agentic applications, to support product development and business workflows',
+    //     'Build backend services and assist with cloud deployment, model serving, and productionization of AI systems in a startup environment'
+    //   ],
+    //   technologies: ['LLM', 'Agentic AI', 'Cloud Deployment', 'Model Serving']
+    // },
+    {
+      title: 'Senior AI Engineer',
+      company: 'Nuclieos',
+      period: 'February 2026 – April 2026',
+      location: 'Gulberg 2, Lahore',
+      description: [
+        'Lead a team of Full Stack AI engineers building production AI systems, translating client product requirements into scalable LLM architectures and agentic workflows',
+        'Architect and implement multi-agent pipelines including tool-calling agents and RAG-based knowledge retrieval',
+        'Own end-to-end delivery of AI products, managing timelines, client collaboration, and engineering quality through code reviews and system design standards'
+      ],
+      technologies: ['LangGraph', 'RAG', 'Multi-Agent Systems', 'Team Leadership', 'System Design']
+    },
     {
       title: 'AI/ML Engineer',
       company: 'Nuclieos',
-      period: 'September 2024 – Present',
-      location: 'Lahore, Pakistan',
+      period: 'September 2024 – January 2026',
+      location: 'Gulberg 2, Lahore',
       description: [
-        'Implement AI models in new and existing applications to enhance user experience for clients',
-        'Develop and manage APIs for seamless and scalable integration of Generative AI features',
-        'Create Minimum Viable Projects (MVPs) and Proof of Concepts (POCs) to demonstrate AI capabilities',
-        'Leverage AI solutions to address client-specific challenges, enhancing operational efficiency',
-        'Engineer containerized services using Docker, deploying systems for scalability'
+        'Designed and deployed AI agents and LLM-powered features in client applications, enabling context-aware automation through RAG pipelines and tool-driven workflows',
+        'Developed and managed APIs for seamless, scalable integration of Generative AI features',
+        'Created MVPs and Proof-of-Concepts to demonstrate AI capabilities in solving specific business problems'
       ],
-      technologies: ['Python', 'Docker', 'Generative AI', 'APIs', 'Containerization']
+      technologies: ['Python', 'RAG', 'Generative AI', 'APIs', 'MVPs']
     },
     {
       title: 'Associate Software Engineer',
       company: 'Ashlar Global',
       period: 'January 2024 – August 2024',
-      location: 'Lahore, Pakistan',
+      location: 'Opposite PCSIR Phase 2, Lahore',
       description: [
-        'Spearheaded the development and maintenance of web applications using Python backend frameworks',
-        'Embedded generative models into applications to provide chatbot features',
-        'Enhanced user interaction and functionality through AI integration',
-        'Collaborated with cross-functional teams on full-stack development projects'
+        'Spearheaded development and maintenance of web applications using Python backend frameworks',
+        'Embedded generative models into applications to provide intelligent chatbot features for end-users'
       ],
-      technologies: ['Python', 'Web Development', 'Generative AI', 'Chatbots', 'Backend Frameworks']
+      technologies: ['Python', 'Web Development', 'Generative AI', 'Chatbots']
     },
     {
       title: 'Trainee Software Engineer',
@@ -293,12 +320,9 @@ const Experience = () => {
       period: 'October 2023 – January 2024',
       location: 'Lahore, Pakistan',
       description: [
-        'Worked with latest LLMs such as OpenAI and Llama2',
-        'Fine-tuned models with parameters according to specific use cases',
-        'Applied Prompt Engineering techniques for optimal model performance',
-        'Gained expertise in model optimization and deployment strategies'
+        'Worked with latest LLMs (OpenAI) and applied prompt engineering strategies for diverse business use cases'
       ],
-      technologies: ['OpenAI', 'Llama2', 'Fine Tuning', 'Prompt Engineering', 'LLMs']
+      technologies: ['OpenAI', 'Prompt Engineering', 'LLMs']
     },
     {
       title: 'AI/ML Intern',
@@ -306,12 +330,9 @@ const Experience = () => {
       period: 'July 2023 – October 2023',
       location: 'Lahore, Pakistan',
       description: [
-        'Performed Natural Language Processing tasks for data cleaning',
-        'Preprocessed data for various AI projects and model training',
-        'Gained foundational experience in data preparation workflows',
-        'Applied NLP libraries for text processing and analysis'
+        'Performed NLP tasks including data cleaning and preprocessing for production ML pipelines'
       ],
-      technologies: ['NLP', 'Data Preprocessing', 'SpaCy', 'NLTK', 'Data Cleaning']
+      technologies: ['NLP', 'Data Preprocessing', 'spaCy', 'NLTK']
     }
   ];
 
@@ -356,34 +377,56 @@ const Experience = () => {
 const Projects = () => {
   const projects = [
     {
-      title: 'Vocal Host',
-      icon: '🎙️',
-      type: 'voice',
-      description: [
-        'Enterprise-grade AI-powered virtual receptionist solution integrated with Twilio',
-        'Autonomously manages comprehensive business communications including call routing',
-        'Handles appointment scheduling, cancellations, and rescheduling automatically',
-        'Utilizes advanced natural language processing and contextual understanding',
-        'Custom document integration for personalized client interactions',
-        'Significantly reduces operational overhead and human error rates'
-      ],
-      technologies: ['Python', 'Twilio API', 'NLP', 'AI Integration', 'Document Processing', 'Voice Processing'],
-      github: null,
-      demo: 'https://ai-voice-assistant-frontend.vercel.app'
-    },
-    {
       title: 'Flow AI',
       icon: '🤖',
       type: 'chat',
       description: [
-        'Developed a chatbot platform that converts natural language into decision trees',
-        'Used prompt engineering with GPT 4o and 4o mini models for interactions',
-        'Built Business Owner Bot with WhatsApp integration for decision tree creation',
-        'Implemented RAG integration allowing PDF uploads for additional knowledge',
-        'Created Customer Bot for WhatsApp-based customer interactions',
-        'Presented as MVP to visitors at the LEAP AI 25 Conference in Riyadh'
+        'Built an LLM-powered platform that converts natural language specifications into executable decision-tree workflows',
+        'Business Owner Bot: WhatsApp-connected — owners define services and upload PDFs for the RAG system',
+        'Customer Bot: enables live customer interactions based on the generated decision tree',
+        'Presented as an MVP at the LEAP AI 25 Conference, Riyadh'
       ],
-      technologies: ['NestJS', 'React JS', 'MongoDB', 'GPT-4o', 'WhatsApp API', 'RAG'],
+      technologies: ['NestJS', 'React', 'LangGraph', 'Qdrant', 'MongoDB'],
+      github: null,
+      demo: null
+    },
+    {
+      title: 'Vocal Host',
+      icon: '🎙️',
+      type: 'voice',
+      description: [
+        'Led end-to-end development of an AI voice assistant handling inbound calls for business receptions',
+        'Vectorised business documents (FAQs, timings, etc.) and passed them as dynamic context via RAG',
+        'Leveraged LLM function/tool calling for adaptable, context-aware responses to complex queries'
+      ],
+      technologies: ['FastAPI', 'ElevenLabs', 'Deepgram', 'LiveKit', 'Twilio', 'Qdrant', 'PostgreSQL'],
+      github: null,
+      demo: 'https://ai-voice-assistant-frontend.vercel.app'
+    },
+    {
+      title: 'Cogit',
+      icon: '🧬',
+      type: 'agent',
+      description: [
+        'Built a platform enabling users to create and deploy autonomous AI agents from natural language descriptions, without any technical setup',
+        'Designed the agent creation pipeline using Google ADK and Azure AI, translating user intent into fully configured, executable agent workflows',
+        'Developed scalable backend APIs for seamless agent management and interaction'
+      ],
+      technologies: ['FastAPI', 'Google ADK', 'Microsoft Azure AI', 'NestJS', 'React'],
+      github: null,
+      demo: null
+    },
+    {
+      title: 'Real Estate Broker Intelligence Platform',
+      icon: '🏢',
+      type: 'realestate',
+      description: [
+        'Developed an AI-powered real estate broker intelligence platform using n8n, web scraping, web search, and LLMs',
+        "Users provide a broker's name and phone number, and the system automatically discovers social media profiles, brokerage affiliations, company websites, and public business information",
+        'Aggregates data from multiple sources, analyses it with AI, and transforms it into a structured professional report',
+        'Eliminates hours of manual research, enabling scalable lead intelligence and broker profiling'
+      ],
+      technologies: ['n8n', 'Web Scraping', 'LLMs', 'Workflow Automation', 'Lead Intelligence'],
       github: null,
       demo: null
     },
@@ -493,9 +536,11 @@ const Contact = () => {
               <div className="code-content">
                 <div>&#123;</div>
                 <div>&nbsp;&nbsp;<span className="code-keyword">"email"</span>: <span className="code-string">"malisiddiq0@gmail.com"</span>,</div>
+                <div>&nbsp;&nbsp;<span className="code-keyword">"phone"</span>: <span className="code-string">"+92 333 0494378"</span>,</div>
                 <div>&nbsp;&nbsp;<span className="code-keyword">"linkedin"</span>: <span className="code-string">"<a href="https://www.linkedin.com/in/muhammad-ali-siddique/" style={{color: 'var(--accent-tertiary)', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer">muhammad-ali-siddique</a>"</span>,</div>
+                <div>&nbsp;&nbsp;<span className="code-keyword">"location"</span>: <span className="code-string">"Lahore, Pakistan"</span>,</div>
                 <div>&nbsp;&nbsp;<span className="code-keyword">"response_time"</span>: <span className="code-string">"24 hours"</span>,</div>
-                <div>&nbsp;&nbsp;<span className="code-keyword">"availability"</span>: <span className="code-string">"Open to opportunities"</span></div>
+                <div>&nbsp;&nbsp;<span className="code-keyword">"availability"</span>: <span className="code-string">"Open to freelance & full-time opportunities"</span></div>
                 <div>&#125;</div>
               </div>
             </div>
@@ -526,7 +571,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <p>&copy; 2024 Muhammad Ali Siddique. Crafted with vibe coding</p>
+        <p>&copy; 2026 Muhammad Ali Siddique. Crafted with vibe coding</p>
         
         <div className="social-links">
           <a href="https://www.linkedin.com/in/muhammad-ali-siddique/" className="social-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>

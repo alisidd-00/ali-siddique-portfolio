@@ -908,6 +908,14 @@ html {
   background: linear-gradient(135deg, #4ecdc4 0%, #6ee7df 100%);
 }
 
+.project-card[data-type="agent"] .project-icon {
+  background: linear-gradient(135deg, #a78bfa 0%, #c4b5fd 100%);
+}
+
+.project-card[data-type="realestate"] .project-icon {
+  background: linear-gradient(135deg, #f5a623 0%, #f7c873 100%);
+}
+
 .project-card[data-type="note"] .project-icon {
   background: linear-gradient(135deg, #45b7d1 0%, #67c5e0 100%);
 }
