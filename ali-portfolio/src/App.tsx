@@ -401,7 +401,7 @@ const Projects = () => {
       ],
       technologies: ['FastAPI', 'ElevenLabs', 'Deepgram', 'LiveKit', 'Twilio', 'Qdrant', 'PostgreSQL'],
       github: null,
-      demo: 'https://ai-voice-assistant-frontend.vercel.app'
+      demo: null
     },
     {
       title: 'Cogit',
